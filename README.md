@@ -2,8 +2,7 @@
 TruthGuard AI is a full-stack, multi-modal MLOps application designed to detect and categorize misinformation on the web in real-time. By bridging a Chrome browser extension frontend with a GPU-accelerated cloud backend, the system provides users with an instant credibility verdict, helping mitigate the impact of sophisticated fake news campaigns.
 
 🎥 Project Demo
-
-
+https://drive.google.com/file/d/1rNGtkz_1yOP4410lH0rfbxjhtlkm4nHS/view?usp=sharing
 
 🏗️ System Architecture
 
@@ -52,3 +51,5 @@ Click Load Unpacked and select your Chrome_Extension folder.
 ⚠️ Known Limitations
 
 Anti-Bot Protections: Modern commercial sites (e.g., IGN) utilize advanced behavioral analytics and bot-detection (TLS fingerprinting). This system is highly optimized for open-source and educational resources (e.g., Wikipedia), which allows for transparent semantic analysis.
+
+Developed by Mridul Krishna Trivedi
