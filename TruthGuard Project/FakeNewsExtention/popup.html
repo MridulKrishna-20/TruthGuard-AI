@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { width: 300px; font-family: Arial, sans-serif; padding: 15px; margin: 0; background: #f9f9f9; }
+    h3 { margin-top: 0; color: #333; text-align: center; }
+    button { width: 100%; background: #4CAF50; color: white; padding: 10px; border: none; border-radius: 4px; cursor: pointer; font-size: 14px; font-weight: bold; }
+    button:hover { background: #45a049; }
+    #result { margin-top: 15px; padding: 10px; border-radius: 4px; display: none; background: white; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    .REAL { border-left: 5px solid #2ecc71; color: #27ae60; }
+    .FAKE { border-left: 5px solid #e74c3c; color: #c0392b; }
+    .confidence { font-size: 12px; color: #666; margin-top: 5px; }
+    .snippet { font-style: italic; font-size: 12px; color: #444; background: #eee; padding: 5px; margin-top: 8px; border-radius: 3px; }
+  </style>
+</head>
+<body>
+  <h3>🛡️ AI TruthGuard</h3>
+  <button id="scanBtn">Scan This Page</button>
+  
+  <div id="result">
+    <div id="verdict" style="font-weight: bold; font-size: 16px;"></div>
+    <div id="confidence" class="confidence"></div>
+    <div id="snippet" class="snippet"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
